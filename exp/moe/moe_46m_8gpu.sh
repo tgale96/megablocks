@@ -16,7 +16,7 @@ if [ -n "${3}" ]; then
     NUM_EXPERTS=$3;
 fi
 
-CAPACITY_FACTOR=16384
+CAPACITY_FACTOR=2
 if [ -n "${4}" ]; then
     CAPACITY_FACTOR=$4;
 fi
